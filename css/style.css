@@ -1,4 +1,46 @@
 body {
   background-color: #dadada;
   font-size: 10px;
+  display: block;
+  margin: 8px;
+}
+
+.container {
+     padding: 0 16px;
+}
+
+@media only screen and (min-width: 768px) {
+     .container {
+          padding: 0;
+          max-width: 1000px;
+          margin: 0 auto;
+     }
+}
+
+@media only screen and (min-width: 1024px) {
+     .container {
+          max-width: 1200px;
+     }
+}
+
+.container img {
+  width: 50%;
+  height: auto;
+  margin: 10px;
+}
+
+img {
+  max-width:100%
+}
+
+h1 {
+  font-family: system-ui, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3 {
+  font-family: Times;
+  font-size: 1.1em;
+  font-weight: bold;
 }
