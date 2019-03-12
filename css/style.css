@@ -55,13 +55,13 @@ h3 {
   margin: 2em 0;
   width: 100%;
   display: inline-block;
+  padding: 2px;
 }
 
 /*For smartphones*/
 @media only screen and (min-width: 575px) {
      .container {
           padding: 0;
-          max-width: 800px;
           margin: 0;
      }
      .preview {
@@ -87,6 +87,6 @@ h3 {
           max-width: 1200px;
      }
      .preview {
-       width: 25%;
+       width: 24%;
      }
 }
