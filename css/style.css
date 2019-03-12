@@ -5,10 +5,68 @@ body {
   margin: 8px;
 }
 
-.container {
-     padding: 0 16px;
+.baku {
+  background-image: url(../images/baku.jpg);
+  background-size: cover;
+  background-position: left;
+
 }
 
+.london {
+  background-image: url(../images/london.png);
+  background-size: cover;
+  background-position: left;
+
+}
+
+.madrid {
+  background-image: url(../images/madrid.jpg);
+  background-size: cover;
+  background-position: right;
+
+}
+
+.rome {
+  background-image: url(../images/rome.jpg);
+  background-size: cover;
+  background-position: right;
+
+}
+
+
+h1 {
+  font-family: system-ui, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+h3 {
+  font-family: Times;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 1.5%;
+}
+
+.preview {
+  height: 300px;
+  margin: 2em 0;
+  width: 100%;
+  display: inline-block;
+}
+
+/*For smartphones*/
+@media only screen and (min-width: 575px) {
+     .container {
+          padding: 0;
+          max-width: 800px;
+          margin: 0;
+     }
+}
+
+/*For tablets*/
 @media only screen and (min-width: 768px) {
      .container {
           padding: 0;
@@ -17,30 +75,9 @@ body {
      }
 }
 
+/*For desktops*/
 @media only screen and (min-width: 1024px) {
      .container {
           max-width: 1200px;
      }
-}
-
-.container img {
-  width: 50%;
-  height: auto;
-  margin: 10px;
-}
-
-img {
-  max-width:100%
-}
-
-h1 {
-  font-family: system-ui, sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-h3 {
-  font-family: Times;
-  font-size: 1.1em;
-  font-weight: bold;
 }
