@@ -64,6 +64,9 @@ h3 {
           max-width: 800px;
           margin: 0;
      }
+     .preview {
+       width: 100%;
+     }
 }
 
 /*For tablets*/
@@ -73,11 +76,17 @@ h3 {
           max-width: 1000px;
           margin: 0 auto;
      }
+     .preview {
+       width: 50%;
+     }
 }
 
 /*For desktops*/
 @media only screen and (min-width: 1024px) {
      .container {
           max-width: 1200px;
+     }
+     .preview {
+       width: 25%;
      }
 }
